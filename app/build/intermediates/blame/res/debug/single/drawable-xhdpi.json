@@ -1,0 +1,70 @@
+[
+    {
+        "merged": "F:\\Udacity projects\\ud851-Sunshine-student\\WeatherForecast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\art_snow.png",
+        "source": "F:\\Udacity projects\\ud851-Sunshine-student\\WeatherForecast\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\art_snow.png"
+    },
+    {
+        "merged": "F:\\Udacity projects\\ud851-Sunshine-student\\WeatherForecast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_cloudy.png",
+        "source": "F:\\Udacity projects\\ud851-Sunshine-student\\WeatherForecast\\app\\src\\main\\res\\drawable-xhdpi\\ic_cloudy.png"
+    },
+    {
+        "merged": "F:\\Udacity projects\\ud851-Sunshine-student\\WeatherForecast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_snow.png",
+        "source": "F:\\Udacity projects\\ud851-Sunshine-student\\WeatherForecast\\app\\src\\main\\res\\drawable-xhdpi\\ic_snow.png"
+    },
+    {
+        "merged": "F:\\Udacity projects\\ud851-Sunshine-student\\WeatherForecast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_light_clouds.png",
+        "source": "F:\\Udacity projects\\ud851-Sunshine-student\\WeatherForecast\\app\\src\\main\\res\\drawable-xhdpi\\ic_light_clouds.png"
+    },
+    {
+        "merged": "F:\\Udacity projects\\ud851-Sunshine-student\\WeatherForecast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\art_rain.png",
+        "source": "F:\\Udacity projects\\ud851-Sunshine-student\\WeatherForecast\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\art_rain.png"
+    },
+    {
+        "merged": "F:\\Udacity projects\\ud851-Sunshine-student\\WeatherForecast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_rain.png",
+        "source": "F:\\Udacity projects\\ud851-Sunshine-student\\WeatherForecast\\app\\src\\main\\res\\drawable-xhdpi\\ic_rain.png"
+    },
+    {
+        "merged": "F:\\Udacity projects\\ud851-Sunshine-student\\WeatherForecast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_storm.png",
+        "source": "F:\\Udacity projects\\ud851-Sunshine-student\\WeatherForecast\\app\\src\\main\\res\\drawable-xhdpi\\ic_storm.png"
+    },
+    {
+        "merged": "F:\\Udacity projects\\ud851-Sunshine-student\\WeatherForecast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\art_light_rain.png",
+        "source": "F:\\Udacity projects\\ud851-Sunshine-student\\WeatherForecast\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\art_light_rain.png"
+    },
+    {
+        "merged": "F:\\Udacity projects\\ud851-Sunshine-student\\WeatherForecast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_light_rain.png",
+        "source": "F:\\Udacity projects\\ud851-Sunshine-student\\WeatherForecast\\app\\src\\main\\res\\drawable-xhdpi\\ic_light_rain.png"
+    },
+    {
+        "merged": "F:\\Udacity projects\\ud851-Sunshine-student\\WeatherForecast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_logo.png",
+        "source": "F:\\Udacity projects\\ud851-Sunshine-student\\WeatherForecast\\app\\src\\main\\res\\drawable-xhdpi\\ic_logo.png"
+    },
+    {
+        "merged": "F:\\Udacity projects\\ud851-Sunshine-student\\WeatherForecast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\art_clear.png",
+        "source": "F:\\Udacity projects\\ud851-Sunshine-student\\WeatherForecast\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\art_clear.png"
+    },
+    {
+        "merged": "F:\\Udacity projects\\ud851-Sunshine-student\\WeatherForecast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\art_light_clouds.png",
+        "source": "F:\\Udacity projects\\ud851-Sunshine-student\\WeatherForecast\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\art_light_clouds.png"
+    },
+    {
+        "merged": "F:\\Udacity projects\\ud851-Sunshine-student\\WeatherForecast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\art_storm.png",
+        "source": "F:\\Udacity projects\\ud851-Sunshine-student\\WeatherForecast\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\art_storm.png"
+    },
+    {
+        "merged": "F:\\Udacity projects\\ud851-Sunshine-student\\WeatherForecast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\art_fog.png",
+        "source": "F:\\Udacity projects\\ud851-Sunshine-student\\WeatherForecast\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\art_fog.png"
+    },
+    {
+        "merged": "F:\\Udacity projects\\ud851-Sunshine-student\\WeatherForecast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\art_clouds.png",
+        "source": "F:\\Udacity projects\\ud851-Sunshine-student\\WeatherForecast\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\art_clouds.png"
+    },
+    {
+        "merged": "F:\\Udacity projects\\ud851-Sunshine-student\\WeatherForecast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_clear.png",
+        "source": "F:\\Udacity projects\\ud851-Sunshine-student\\WeatherForecast\\app\\src\\main\\res\\drawable-xhdpi\\ic_clear.png"
+    },
+    {
+        "merged": "F:\\Udacity projects\\ud851-Sunshine-student\\WeatherForecast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_fog.png",
+        "source": "F:\\Udacity projects\\ud851-Sunshine-student\\WeatherForecast\\app\\src\\main\\res\\drawable-xhdpi\\ic_fog.png"
+    }
+]

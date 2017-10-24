@@ -1,0 +1,90 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\Udacity projects\ud851-Sunshine-student\WeatherForecast\app\src\main\AndroidManifest.xml:2:1-20:12
+	package
+		ADDED from F:\Udacity projects\ud851-Sunshine-student\WeatherForecast\app\src\main\AndroidManifest.xml:3:5-54
+		INJECTED from F:\Udacity projects\ud851-Sunshine-student\WeatherForecast\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Udacity projects\ud851-Sunshine-student\WeatherForecast\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from F:\Udacity projects\ud851-Sunshine-student\WeatherForecast\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Udacity projects\ud851-Sunshine-student\WeatherForecast\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\Udacity projects\ud851-Sunshine-student\WeatherForecast\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from F:\Udacity projects\ud851-Sunshine-student\WeatherForecast\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Udacity projects\ud851-Sunshine-student\WeatherForecast\app\src\main\AndroidManifest.xml
+application
+ADDED from F:\Udacity projects\ud851-Sunshine-student\WeatherForecast\app\src\main\AndroidManifest.xml:5:5-18:19
+MERGED from [com.android.support:preference-v7:25.0.1] C:\Users\Dell\.android\build-cache\c06e9543281d4f58d8bd3f74e23187a70c84f5f1\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:appcompat-v7:25.1.0] C:\Users\Dell\.android\build-cache\99fa186bbbb196d2ec87c661a6ca8ea367c23b49\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.1.0] C:\Users\Dell\.android\build-cache\49e2a3d531544a149ef54e9528ae40dc709a01a0\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.1.0] C:\Users\Dell\.android\build-cache\a66398f3835e02dd0c7690175cf76db91b58bb13\output\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.0-beta3] C:\Users\Dell\.android\build-cache\063f561934020d62fe9542afe1d9a001d2fb4072\output\AndroidManifest.xml:9:5-20
+MERGED from [com.firebase:firebase-jobdispatcher:0.5.0] C:\Users\Dell\.android\build-cache\d64390f022cce2e3dc72fcebc6caf93fb6a18a2c\output\AndroidManifest.xml:26:5-40:19
+MERGED from [com.android.support:support-v4:25.1.0] C:\Users\Dell\.android\build-cache\bd9f3d9107e93caaadb90443fdb700fc4082c38f\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.1.0] C:\Users\Dell\.android\build-cache\e8b956e0d2e524d0e92a7480a86e301dbdd8c69c\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.0] C:\Users\Dell\.android\build-cache\7711e2d5768b922ec3ded0e67b50a9be78323ba1\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.0] C:\Users\Dell\.android\build-cache\f2d92e687a166fafa1eb4cdfc081ba5214de101d\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.0] C:\Users\Dell\.android\build-cache\3c9bbac94357d92ea023100d02ec1381a8dde411\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] C:\Users\Dell\.android\build-cache\8f79c44758e4475e55e6895ea35f1ed45f3f2119\output\AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from F:\Udacity projects\ud851-Sunshine-student\WeatherForecast\app\src\main\AndroidManifest.xml:8:9-41
+	android:supportsRtl
+		ADDED from F:\Udacity projects\ud851-Sunshine-student\WeatherForecast\app\src\main\AndroidManifest.xml:9:9-35
+	android:allowBackup
+		ADDED from F:\Udacity projects\ud851-Sunshine-student\WeatherForecast\app\src\main\AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from F:\Udacity projects\ud851-Sunshine-student\WeatherForecast\app\src\main\AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from F:\Udacity projects\ud851-Sunshine-student\WeatherForecast\app\src\main\AndroidManifest.xml:10:9-40
+activity#application.example.com.weatherforecast.MainActivity
+ADDED from F:\Udacity projects\ud851-Sunshine-student\WeatherForecast\app\src\main\AndroidManifest.xml:11:9-17:20
+	android:name
+		ADDED from F:\Udacity projects\ud851-Sunshine-student\WeatherForecast\app\src\main\AndroidManifest.xml:11:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from F:\Udacity projects\ud851-Sunshine-student\WeatherForecast\app\src\main\AndroidManifest.xml:12:13-16:29
+action#android.intent.action.MAIN
+ADDED from F:\Udacity projects\ud851-Sunshine-student\WeatherForecast\app\src\main\AndroidManifest.xml:13:17-69
+	android:name
+		ADDED from F:\Udacity projects\ud851-Sunshine-student\WeatherForecast\app\src\main\AndroidManifest.xml:13:25-66
+category#android.intent.category.LAUNCHER
+ADDED from F:\Udacity projects\ud851-Sunshine-student\WeatherForecast\app\src\main\AndroidManifest.xml:15:17-77
+	android:name
+		ADDED from F:\Udacity projects\ud851-Sunshine-student\WeatherForecast\app\src\main\AndroidManifest.xml:15:27-74
+uses-sdk
+INJECTED from F:\Udacity projects\ud851-Sunshine-student\WeatherForecast\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:preference-v7:25.0.1] C:\Users\Dell\.android\build-cache\c06e9543281d4f58d8bd3f74e23187a70c84f5f1\output\AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:appcompat-v7:25.1.0] C:\Users\Dell\.android\build-cache\99fa186bbbb196d2ec87c661a6ca8ea367c23b49\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.1.0] C:\Users\Dell\.android\build-cache\49e2a3d531544a149ef54e9528ae40dc709a01a0\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.1.0] C:\Users\Dell\.android\build-cache\a66398f3835e02dd0c7690175cf76db91b58bb13\output\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:recyclerview-v7:25.0.1] C:\Users\Dell\.android\build-cache\06eb79fd9b1ba8bd96ac30bbaa22d0e14fbd7b43\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support.constraint:constraint-layout:1.0.0-beta3] C:\Users\Dell\.android\build-cache\063f561934020d62fe9542afe1d9a001d2fb4072\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.firebase:firebase-jobdispatcher:0.5.0] C:\Users\Dell\.android\build-cache\d64390f022cce2e3dc72fcebc6caf93fb6a18a2c\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-v4:25.1.0] C:\Users\Dell\.android\build-cache\bd9f3d9107e93caaadb90443fdb700fc4082c38f\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.1.0] C:\Users\Dell\.android\build-cache\e8b956e0d2e524d0e92a7480a86e301dbdd8c69c\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.1.0] C:\Users\Dell\.android\build-cache\7711e2d5768b922ec3ded0e67b50a9be78323ba1\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.1.0] C:\Users\Dell\.android\build-cache\f2d92e687a166fafa1eb4cdfc081ba5214de101d\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.1.0] C:\Users\Dell\.android\build-cache\3c9bbac94357d92ea023100d02ec1381a8dde411\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.1.0] C:\Users\Dell\.android\build-cache\8f79c44758e4475e55e6895ea35f1ed45f3f2119\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.1.0] C:\Users\Dell\.android\build-cache\99fa186bbbb196d2ec87c661a6ca8ea367c23b49\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from F:\Udacity projects\ud851-Sunshine-student\WeatherForecast\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Udacity projects\ud851-Sunshine-student\WeatherForecast\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from F:\Udacity projects\ud851-Sunshine-student\WeatherForecast\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Udacity projects\ud851-Sunshine-student\WeatherForecast\app\src\main\AndroidManifest.xml
+service#com.firebase.jobdispatcher.GooglePlayReceiver
+ADDED from [com.firebase:firebase-jobdispatcher:0.5.0] C:\Users\Dell\.android\build-cache\d64390f022cce2e3dc72fcebc6caf93fb6a18a2c\output\AndroidManifest.xml:32:9-39:19
+	android:exported
+		ADDED from [com.firebase:firebase-jobdispatcher:0.5.0] C:\Users\Dell\.android\build-cache\d64390f022cce2e3dc72fcebc6caf93fb6a18a2c\output\AndroidManifest.xml:34:13-36
+	android:permission
+		ADDED from [com.firebase:firebase-jobdispatcher:0.5.0] C:\Users\Dell\.android\build-cache\d64390f022cce2e3dc72fcebc6caf93fb6a18a2c\output\AndroidManifest.xml:35:13-93
+	android:name
+		ADDED from [com.firebase:firebase-jobdispatcher:0.5.0] C:\Users\Dell\.android\build-cache\d64390f022cce2e3dc72fcebc6caf93fb6a18a2c\output\AndroidManifest.xml:33:13-73
+intent-filter#com.google.android.gms.gcm.ACTION_TASK_READY
+ADDED from [com.firebase:firebase-jobdispatcher:0.5.0] C:\Users\Dell\.android\build-cache\d64390f022cce2e3dc72fcebc6caf93fb6a18a2c\output\AndroidManifest.xml:36:13-38:29
+action#com.google.android.gms.gcm.ACTION_TASK_READY
+ADDED from [com.firebase:firebase-jobdispatcher:0.5.0] C:\Users\Dell\.android\build-cache\d64390f022cce2e3dc72fcebc6caf93fb6a18a2c\output\AndroidManifest.xml:37:17-87
+	android:name
+		ADDED from [com.firebase:firebase-jobdispatcher:0.5.0] C:\Users\Dell\.android\build-cache\d64390f022cce2e3dc72fcebc6caf93fb6a18a2c\output\AndroidManifest.xml:37:25-84
