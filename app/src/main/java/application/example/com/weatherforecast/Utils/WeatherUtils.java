@@ -1,36 +1,30 @@
-package application.example.com.weatherforecast;
+package application.example.com.weatherforecast.Utils;
 
 import android.content.Context;
 import android.util.Log;
+
+import application.example.com.weatherforecast.R;
+import application.example.com.weatherforecast.db.SunshinePreferences;
 
 /**
  * Created by Dell on 24-10-2017.
  */
 
-public class WeatherUtils  {
+public class WeatherUtils {
     private static final String LOG_TAG = WeatherUtils.class.getSimpleName();
 
-    /**
-     * This method will convert a temperature from Celsius to Fahrenheit.
-     */
+
     private static double celsiusToFahrenheit(double temperatureInCelsius) {
         double temperatureInFahrenheit = (temperatureInCelsius * 1.8) + 32;
         return temperatureInFahrenheit;
     }
 
-    /**
-     * Temperature data is stored in Celsius by our app. Depending on the user's preference,
-     * the app may need to display the temperature in Fahrenheit. This method will perform that
-     * temperature conversion if necessary. It will also format the temperature so that no
-     * decimal points show. Temperatures will be formatted to the following form: "21°C"
-     */
     public static String formatTemperature(Context context, double temperature) {
-        int temperatureFormatResourceId = R.string.format_temperature_celsius;
-
         if (!SunshinePreferences.isMetric(context)) {
             temperature = celsiusToFahrenheit(temperature);
-            temperatureFormatResourceId = R.string.format_temperature_fahrenheit;
         }
+
+        int temperatureFormatResourceId = R.string.format_temperature;
 
         /* For presentation, assume the user doesn't care about tenths of a degree. */
         return String.format(context.getString(temperatureFormatResourceId), temperature);
@@ -47,12 +41,7 @@ public class WeatherUtils  {
         return highLowStr;
     }
 
-    /**
-     * This method uses the wind direction in degrees to determine compass direction as a
-     * String. (eg NW) The method will return the wind String in the following form: "2 km/h SW"
-     */
     public static String getFormattedWind(Context context, float windSpeed, float degrees) {
-
         int windFormat = R.string.format_wind_kmh;
 
         if (!SunshinePreferences.isMetric(context)) {
@@ -60,10 +49,6 @@ public class WeatherUtils  {
             windSpeed = .621371192237334f * windSpeed;
         }
 
-        /*
-         * You know what's fun, writing really long if/else statements with tons of possible
-         * conditions. Seriously, try it!
-         */
         String direction = "Unknown";
         if (degrees >= 337.5 || degrees < 22.5) {
             direction = "N";
@@ -82,19 +67,10 @@ public class WeatherUtils  {
         } else if (degrees >= 292.5 && degrees < 337.5) {
             direction = "NW";
         }
+
         return String.format(context.getString(windFormat), windSpeed, direction);
     }
 
-    /**
-     * Helper method to provide the string according to the weather
-     * condition id returned by the OpenWeatherMap call.
-     *
-     * @param context   Android context
-     * @param weatherId from OpenWeatherMap API response
-     *                  http://bugs.openweathermap.org/projects/api/wiki/Weather_Condition_Codes
-     *
-     * @return String for the weather condition, null if no relation is found.
-     */
     public static String getStringForWeatherCondition(Context context, int weatherId) {
         int stringId;
         if (weatherId >= 200 && weatherId <= 232) {
@@ -261,21 +237,14 @@ public class WeatherUtils  {
             default:
                 return context.getString(R.string.condition_unknown, weatherId);
         }
+
         return context.getString(stringId);
     }
 
-    /**
-     * Helper method to provide the icon resource id according to the weather condition id returned
-     * by the OpenWeatherMap call.
-     *
-     * @param weatherId from OpenWeatherMap API response
-     *
-     * @return resource id for the corresponding icon. -1 if no relation is found.
-     */
-    public static int getIconResourceForWeatherCondition(int weatherId) {
+    public static int getSmallArtResourceIdForWeatherCondition(int weatherId) {
+
         /*
-         * Based on weather code data found at:
-         * See http://bugs.openweathermap.org/projects/api/wiki/Weather_Condition_Codes
+         * Based on weather code data for Open Weather Map.
          */
         if (weatherId >= 200 && weatherId <= 232) {
             return R.drawable.ic_storm;
@@ -291,7 +260,7 @@ public class WeatherUtils  {
             return R.drawable.ic_snow;
         } else if (weatherId >= 701 && weatherId <= 761) {
             return R.drawable.ic_fog;
-        } else if (weatherId == 761 || weatherId == 781) {
+        } else if (weatherId == 761 || weatherId == 771 || weatherId == 781) {
             return R.drawable.ic_storm;
         } else if (weatherId == 800) {
             return R.drawable.ic_clear;
@@ -299,22 +268,22 @@ public class WeatherUtils  {
             return R.drawable.ic_light_clouds;
         } else if (weatherId >= 802 && weatherId <= 804) {
             return R.drawable.ic_cloudy;
+        } else if (weatherId >= 900 && weatherId <= 906) {
+            return R.drawable.ic_storm;
+        } else if (weatherId >= 958 && weatherId <= 962) {
+            return R.drawable.ic_storm;
+        } else if (weatherId >= 951 && weatherId <= 957) {
+            return R.drawable.ic_clear;
         }
-        return -1;
+
+        Log.e(LOG_TAG, "Unknown Weather: " + weatherId);
+        return R.drawable.ic_storm;
     }
 
-    /**
-     * Helper method to provide the art resource id according to the weather condition id returned
-     * by the OpenWeatherMap call.
-     *
-     * @param weatherId from OpenWeatherMap API response
-     *
-     * @return resource id for the corresponding icon. -1 if no relation is found.
-     */
-    public static int getArtResourceForWeatherCondition(int weatherId) {
+    public static int getLargeArtResourceIdForWeatherCondition(int weatherId) {
+
         /*
-         * Based on weather code data found at:
-         * http://bugs.openweathermap.org/projects/api/wiki/Weather_Condition_Codes
+         * Based on weather code data for Open Weather Map.
          */
         if (weatherId >= 200 && weatherId <= 232) {
             return R.drawable.art_storm;
@@ -345,6 +314,7 @@ public class WeatherUtils  {
         } else if (weatherId >= 951 && weatherId <= 957) {
             return R.drawable.art_clear;
         }
+
         Log.e(LOG_TAG, "Unknown Weather: " + weatherId);
         return R.drawable.art_storm;
     }

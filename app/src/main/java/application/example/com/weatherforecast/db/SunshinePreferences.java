@@ -1,8 +1,10 @@
-package application.example.com.weatherforecast;
+package application.example.com.weatherforecast.db;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
+
+import application.example.com.weatherforecast.R;
 
 /**
  * Created by Dell on 24-10-2017.
